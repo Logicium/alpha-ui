@@ -34,7 +34,7 @@ import Footer from "@/components/Footer.vue";
 
 .contactInfo{
   display: flex;
-  font-size: 8vw;
+  font-size: 7vw;
   flex-direction: column;
   text-align: center;
 }

@@ -29,7 +29,7 @@
   width: 70%;
   align-self: center;
   text-align: center;
-  font-size: 6rem;
+  font-size: 7vw;
 }
 
 .aboutRow{
