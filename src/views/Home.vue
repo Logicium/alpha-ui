@@ -4,18 +4,6 @@ import { ref } from 'vue';
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 
-const translateX = ref(0);
-
-setInterval(() => {
-  if (translateX.value <= -100) {
-    translateX.value = 0;
-  } else {
-    translateX.value -= 2;
-  }
-}, 100);
-
-
-
 </script>
 
 <template>

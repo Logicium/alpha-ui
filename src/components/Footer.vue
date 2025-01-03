@@ -1,6 +1,18 @@
 <script setup lang="ts">
 
+import {ref} from "vue";
+
 defineProps(['images']);
+const translateX = ref(0);
+
+setInterval(() => {
+  if (translateX.value <= -100) {
+    translateX.value = 0;
+  } else {
+    translateX.value -= 2;
+  }
+}, 100);
+
 
 </script>
 
